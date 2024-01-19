@@ -1,0 +1,46 @@
+h1{
+    color: blue;
+    text-align: center;
+    font-size: 40px;
+}
+.btn button{
+    text-align: center;
+    color: wheat;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    font-weight: bold;
+    background-color: blue;
+}
+/* .cont {
+    text-align: center;
+}
+.cont label{
+    text-align: left;
+    margin-left: 50px;
+} */
+label{
+    font-size: 25px;
+    color: blue;
+    font-weight: lighter;
+}
+input{
+    width: 10cm;
+    height: 1cm;
+    font-size: 25px;
+    font-style: italic;
+}
+select{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.btn {
+    text-align: center;
+}
+body{
+    background-color:rgb(205, 247, 233);
+}
+.cont{
+    text-align: center;
+}

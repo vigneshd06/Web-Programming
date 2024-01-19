@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <h1 id="#form">FORM</h1>
+    <form action="">
+        <div class="cont">
+            <label>Name </label><br><input type="text" id="Name"><br><br>
+            <label>Age</label><br><input type="number" id="Age"><br><br>
+            <label>E-Mail</label><br><input type="email" id="Email"><br><br>
+            <label>DOB</label><br><input type="date" id="dob"><br><br>
+            <label>Gender </label><select name="Select" id="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select><br><br>
+            <label>Address</label><br><textarea rows="6" cols="25" id="address" onfocus="this.value=''"
+                style="font-size: 20px;">Enter you Address here</textarea><br><br>
+
+        </div>
+        <div class="btn">
+        <button onclick="getinput()">Submit</button>
+
+        </div>
+        <script src="form.js"></script>
+    </form>
+</body>
+
+</html>
